@@ -7,13 +7,15 @@
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [License](#license)
+- [simple-math-eval](#simple-math-eval)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [License](#license)
 
 ## Installation
 
 ```console
-pip install simple-math-eval
+pip install -e .
 ```
 
 ## License

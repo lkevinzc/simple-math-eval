@@ -24,7 +24,10 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = []
+dependencies = [
+  "pylatexenc",
+  "math-verify[antlr4_13_2]",
+]
 
 [project.urls]
 Documentation = "https://github.com/Zichen/simple-math-eval#readme"
