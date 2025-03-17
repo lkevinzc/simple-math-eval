@@ -9,11 +9,11 @@ from datasets import load_from_disk
 from simple_math_eval.grader import math_reward_fn
 
 
-def apply_qwen_math_template(question: str):
+def apply_qwen_template(question: str):
     return (
         "<|im_start|>system\nPlease reason step by step, and put your final answer within \\boxed{}.<|im_end|>\n<|im_start|>user\n"
         + question
-        + "<|im_end|>\n<|im_start|>assistant"
+        + "<|im_end|>\n<|im_start|>assistant\n"
     )
 
 
