@@ -43,7 +43,7 @@ def main(
 
     if template == "qwen":
         print("use apply_qwen_math_template")
-        apply_template = apply_qwen_math_template
+        apply_template = apply_qwen_template
     else:
         raise ValueError
 
